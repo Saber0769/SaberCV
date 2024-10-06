@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.cv-resume.saber-aissaoui\.com [NC]
+RewriteRule ^(.*)$ https://cv-resume.saber-aissaoui.com/$1 [L,R=301]
+RewriteCond %{HTTPS} !=on
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>

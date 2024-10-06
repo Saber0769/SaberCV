@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Saber Aissaoui resume cv</title>
+</head>
+
+<body>
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Saber AISSAOUI</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profil
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Compétances
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Expérience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt nav__icon'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <section class="home" id="home sec_left">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/profil.jpg" alt="" class="home__img">
+                            <h1 class="home__title"> <b>Saber AISSAOUI</b></h1>
+                            <h3 class="home__profession">Développeur Web et Web Mobile</h3>
+                            <div>
+                                <a download="" href="assets/pdf/Saber_Aissaoui-CV.pdf"
+                                    class="home__button-movil">Télécharger CV</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i>Lyon - France
+                            </span>
+
+                            <span class="home__information ">
+                                <i class="bx bx-envelope home__icon"></i> aissaoui.saber@yahoo.com
+                            </span>
+
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> 06 98 61 89 16
+                            </span>
+
+                            <span class="home__information">
+                                <i class="bx bx-car home__icon"></i> Véhiculé
+                            </span>
+                        </div>
+
+                    </div>
+                    <i class="bx bx-moon change-theme" title="theme" id="theme-button"></i>
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <section class="social section sec_left" id="social_m">
+                    <h2 class="section-title">Reseaux sociaux</h2>
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/aissaoui-saber/" target="_blank" class="social__link">
+                            <i class="bx bxl-linkedin-square social__icon"></i> LinkedIn
+                        </a>
+                        <a href="https://github.com/Saber0769" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> Github
+                        </a>
+                        <a href="https://dev.to/saber0769" target="_blank" class="social__link">
+                            <i class='bx bxl-dev-to social__icon'></i> Dev-to
+                        </a>
+                        <a href="https://twitter.com/saber077" target="_blank" class="social__link">
+                            <i class='bx bxl-twitter social__icon social__icon'></i> Twitter
+                        </a>
+                    </div>
+                </section>
+
+                <section class="skills section sec_left " id="skills">
+                    <h2 class="section-title">Compétences</h2>
+                    <div class="skills__content bd-grid skills-bar-container">
+                        <ul class="skills__data ">
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>Html5</h3>
+                                    <span class="percent" id="html-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressred" id="progress-html"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>Css3 / Bootstrap</h3>
+                                    <span class="percent" id="css-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressblue" id="progress-css"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>JavaScript / jQuery</h3>
+                                    <span class="percent" id="javascript-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progresspurple" id="progress-javascript"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>Php</h3>
+                                    <span class="percent" id="php-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressorange" id="progress-php"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>Java</h3>
+                                    <span class="percent" id="angular-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressgreen" id="progress-angular"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>SQL / MySQL</h3>
+                                    <span class="percent" id="angular-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressgreen" id="progress-angular"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>React.js</h3>
+                                    <span class="percent" id="angular-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressgreen" id="progress-angular"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>Laravel</h3>
+                                    <span class="percent" id="angular-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressgreen laravel" id="progress-angular"></span>
+                                </div>
+                            </li>
+
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>WordPress</h3>
+                                    <span class="percent" id="angular-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressgreen" id="progress-angular"></span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="progressbar-title">
+                                    <h3>Photoshop / Figma</h3>
+                                    <span class="percent" id="html-pourcent"></span>
+                                </div>
+                                <div class="bar-container">
+                                    <span class="progressbar progressred" id="progress-html"></span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="languages section">
+                    <h2 class="section-title">langues</h2>
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Anglais
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Francais
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Arabe
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+                <section class="interests section">
+                    <h2 class="section-title">
+                        hobbies</h2>
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content ">
+                            <i class="bx bxs-plane-alt interests__icon"></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class='bx bxs-camera interests__icon'></i>
+                            <span class="interests__name">Photographie</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class='bx bx-football interests__icon'></i>
+                            <span class="interests__name">Football</span>
+                        </div>
+                        <div class="interests__content ">
+                            <i class='bx bxs-chess interests__icon'></i>
+                            <span class="interests__name">Chess</span>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <section class="profile section sec_left" id="profile">
+                    <h2 class="section-title">
+                        <!--profil-->
+                    </h2>
+                    <p class="profile__description">En tant que<b> Développeur web et web mobile</b> Junior passionné qui aspire à apprendre et à grandir dans
+                        l'industrie technologique en constante évolution. Avec une formation solide en développement
+                        web, je suis capable de travailler en équipe pour créer des applications web et mobiles
+                        performantes et évolutives.
+                        optimales pour mes clients.</p>
+                </section>
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">parcours professionnel</h2>
+                    <div class="experience__container bd-grid">
+                        <!-- MISSIONS ACTUELLES -->
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">MISSIONS ACTUELLES</h3>
+                                <span class="experience__company">● Mai 2022- Aujourd'hui <a href="#">DÉVELOPPEUR
+                                        FREELANCE
+                                    </a></span>
+                                <p class="experience_description">
+                                    <ul>
+                                        <p>- Création de sites et d’applications web.</p>
+                                    </ul>
+                                </p>
+                                <span class="experience__company">● Sép 2022- Aujourd'hui <a
+                                        href="https://www.boehringer-ingelheim.fr/">Boehringer Ingelheim
+                                    </a>TECHNICIEN DE LABORATOIRE</span>
+                                <p class="experience_description">
+                                    <ul>
+                                        <p>- Chargé de preparation de matériels pour la production et recherche vaccinale.</p>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- debut de MISSIONS BENEVOLAT -->
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">MISSION DE BÉNÉVOLAT</h3>
+                                <span class="experience__company">Mars 2021- Juin 2022 <a
+                                        href="https://unicef69.fr/">UNICEF-RHÔNE
+                                    </a>Lyon 6éme</span>
+                                <p class="experience_description">
+                                    <ul>
+                                        <p>Expérience Bénévole, engagement de 10H/ semaine :</p>
+                                        <li>- Gestion opérationnelle du site internet UNICEF-RHÔNE.</li>
+                                        <li>- Développement de nouvelles fonctionnalités [PHP].</li>
+                                        <li>- Gestion de l'interface utilisateur web.</li>
+                                        <li>- Distribution des tâches aux autres bénévoles (intégration des
+                                            images et supports multimédia dans le respect du cahier des
+                                            charges).</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- fin de MISSIONS BENEVOLAT -->
+
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">DEVELOPPEUR FULLSTACK</h3>
+                                <span class="experience__company">2021 <a
+                                        href="https://agiir-network.com/">AGIIR-NETWORK </a>Roanne</span>
+                                <p class="experience_description">
+                                    Mission professionnelle de fin d'études
+                                    <ul>
+                                        <li>- Mise en ligne de nouveaux composants HTML CSS JS.</li>
+                                        <li>- Détection et correction des bugs sur LIFERAY 7.3.</li>
+                                        <li>- Rajout de nouvelles fonctionnalites sur un module.</li>
+                                        <li>- Formation et accompagnement d'un nouveau stagiaire.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Magasinier</h3>
+                                <span class="experience__company">2017 - 2021 : SOPREMA France Genas</span>
+                                <p class="experience_description">Réception et vérification des marchandises. Mise en
+                                    rayon, gestion des
+                                    stocks, préparation des expéditions.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Divers missions d’intérim</h3>
+                                <span class="experience__company">2016 - 2017 sur le Rhône</span>
+                                <p class="experience_description">Notamment réparation et dépannage informatique.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title"> Responsable de Transport</h3>
+                                <span class="experience__company">2014 - 2015 : BGP.Inc en Algérie</span>
+                                <p class="experience_description">Responsable du planning des véhicules. Flotte de 64
+                                    véhicules. Audit sécurité. Animation et formation des équipes.</p>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title"> Manager adjoint hygiène et Sécurité (HSE)</h3>
+                                <span class="experience__company"> 2013 - 2014 : Sté
+                                    BGP.Inc en Algérie</span>
+                                <p class="experience_description">Audit hygiène et sécurité. Interprète en Anglais.
+                                    Inspection terrain. Animation de réunions et formation de collaborateurs.</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Operateur Radio-Metallographie</h3>
+                                <span class="experience__company"> 2010 - 2011 : Sté PTROJET en Algérie</span>
+                                <p class="experience_description">
+                                    Utilisation rayon X et Gamma pour l’inspection des soudures de
+                                    pipeline.</p>
+                            </div>
+                        </div> -->
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Employé dans un cyber café en Algérie</h3>
+                                <span class="experience__company"> 2007 - 2010 Accueil client, aide à l'utilisation,
+                                    gestion
+                                    et
+                                    maintenance du matériel.</span>
+                                <p class="experience_description"></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Diplômes</h2>
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">2020 - 2021 Développeur web et web mobile</h3>
+                            <p class="certificate_description">Titre RNCP de
+                                niveau V, GRETA CFA Lyon Métropole.</p>
+                        </div>
+
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">2005 - 2007 DUT informatique.</h3>
+                            <p class="certificate_description"> diplome obtenu, Centre de
+                                Formation Professionnelle Algérie.</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- <section class="education section" id="education">
+                    <h2 class="section-title">Auto Formations</h2>
+                    <div class="education__container bd-grid">
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title"> React.js (app projet)</h3>
+                                <span class="education__studies">Juin 2021 : LinkedIn Learning
+                                </span>
+                                <span class="education__year"></span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title"> Développeur Web from Scratch</h3>
+                                <span class="education__studies"> Juin 2020 : www.eduonix.com
+                                </span>
+                                <span class="education__year"></span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title"> JavaScript : La programmation oop</h3>
+                                <span class="education__studies">Mars 2020 : LinkedIn Learning
+                                </span>
+                                <span class="education__year"></span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">L'essentiel de PHP et MySQL </h3>
+                                <span class="education__studies">Fév 2020 : LinkedIn Learning</span>
+                                <span class="education__year"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+
+            </div>
+        </div>
+    </main>
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
